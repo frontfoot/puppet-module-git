@@ -1,15 +1,15 @@
 
 ########################################
-# 
+#
 # A better git leads to a better world !
-# 
+#
 # Thx to oh-my-zsh project for these great aliases
 # https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh
-# 
+#
 ########################################
 
 # exit if not bash
-[ -n "$BASH_VERSION" ] && return 
+[ -n "$BASH_VERSION" ] && return
 
 # let's use autocompletion for git
 [ -f /etc/bash_completion.d/git ] && source /etc/bash_completion.d/git
