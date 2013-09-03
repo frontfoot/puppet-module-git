@@ -8,6 +8,9 @@
 # 
 ########################################
 
+# exit if not bash
+[ -n "$BASH_VERSION" ] && return 
+
 # let's use autocompletion for git
 [ -f /etc/bash_completion.d/git ] && source /etc/bash_completion.d/git
 
