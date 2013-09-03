@@ -23,7 +23,7 @@ class git::client {
 class git::client::bash_aliases {
 
   file { "/etc/profile.d/git.sh":
-    source  => ["files/git.sh"],
+    source  => "puppet:///modules/git/git.sh",
     owner => root,
     group => root,
     mode  => 644
